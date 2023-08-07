@@ -8,5 +8,5 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  prefix: "x",
+  prefix: "tw-",
 };

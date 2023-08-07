@@ -98,9 +98,107 @@
   --tw-backdrop-sepia:  
 }
 
-.xpy-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem
+.-tw-inset-1 {
+  inset: -0.25rem
+}
+
+.tw--inset-1 {
+  inset: -0.25rem
+}
+
+.-tw-top-1 {
+  top: -0.25rem
+}
+
+.tw--top-1 {
+  top: -0.25rem
+}
+
+.tw-mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.tw-my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem
+}
+
+.tw-my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem
+}
+
+.tw-flex {
+  display: flex
+}
+
+.tw-flex-col {
+  flex-direction: column
+}
+
+.tw-items-center {
+  align-items: center
+}
+
+.tw-justify-center {
+  justify-content: center
+}
+
+.tw-space-y-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 1
+}
+
+.tw-space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1
+}
+
+.tw-divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 1
+}
+
+.tw-divide-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 1
+}
+
+.tw-rounded-2xl {
+  border-radius: 1rem
+}
+
+.tw-bg-\[\] {
+  background-color: 
+}
+
+.tw-p-12 {
+  padding: 3rem
+}
+
+.tw-p-16 {
+  padding: 4rem
+}
+
+.tw-text-center {
+  text-align: center
+}
+
+.tw-ordinal {
+  --tw-ordinal: ordinal;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)
+}
+
+.tw-slashed-zero {
+  --tw-slashed-zero: slashed-zero;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction)
+}
+
+.tw-shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.tw-ring-inset {
+  --tw-ring-inset: inset
 }
 
 @media (prefers-color-scheme: dark) {
