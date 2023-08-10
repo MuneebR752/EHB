@@ -147,6 +147,23 @@
   margin-bottom: 5rem
 }
 
+.tw-my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+
+.tw-mt-4 {
+  margin-top: 1rem
+}
+
+.tw-mt-6 {
+  margin-top: 1.5rem
+}
+
+.tw-mt-8 {
+  margin-top: 2rem
+}
+
 .tw-flex {
   display: flex
 }
@@ -159,20 +176,32 @@
   display: none
 }
 
+.tw-h-32 {
+  height: 8rem
+}
+
 .tw-h-72 {
   height: 18rem
 }
 
-.tw-h-24 {
-  height: 6rem
+.tw-h-96 {
+  height: 24rem
 }
 
-.tw-h-28 {
-  height: 7rem
+.tw-h-\[96\] {
+  height: 96
 }
 
-.tw-h-32 {
-  height: 8rem
+.tw-h-\[30rem\] {
+  height: 30rem
+}
+
+.tw-h-\[34rem\] {
+  height: 34rem
+}
+
+.tw-h-\[36rem\] {
+  height: 36rem
 }
 
 .tw-cursor-pointer {
@@ -215,8 +244,31 @@
   text-align: center
 }
 
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
 .tw-font-bold {
   font-weight: 700
+}
+
+.tw-font-semibold {
+  font-weight: 600
+}
+
+.tw-leading-3 {
+  line-height: .75rem
 }
 
 .tw-text-orange-500 {
@@ -250,4 +302,12 @@
   .lg\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
   }
+}
+
+.\[\&\>\*\]\:tw-font-serif>* {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.\[\&\>\*\]\:tw-font-semibold>* {
+  font-weight: 600
 }
