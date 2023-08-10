@@ -152,14 +152,6 @@
   margin-bottom: 1rem
 }
 
-.tw-mt-4 {
-  margin-top: 1rem
-}
-
-.tw-mt-6 {
-  margin-top: 1.5rem
-}
-
 .tw-mt-8 {
   margin-top: 2rem
 }
@@ -184,22 +176,6 @@
   height: 18rem
 }
 
-.tw-h-96 {
-  height: 24rem
-}
-
-.tw-h-\[96\] {
-  height: 96
-}
-
-.tw-h-\[30rem\] {
-  height: 30rem
-}
-
-.tw-h-\[34rem\] {
-  height: 34rem
-}
-
 .tw-h-\[36rem\] {
   height: 36rem
 }
@@ -218,6 +194,10 @@
 
 .tw-items-center {
   align-items: center
+}
+
+.tw-justify-start {
+  justify-content: flex-start
 }
 
 .tw-justify-center {
@@ -244,14 +224,8 @@
   text-align: center
 }
 
-.tw-text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem
-}
-
-.tw-text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem
+.tw-align-middle {
+  vertical-align: middle
 }
 
 .tw-text-3xl {
@@ -302,10 +276,6 @@
   .lg\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr))
   }
-}
-
-.\[\&\>\*\]\:tw-font-serif>* {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
 }
 
 .\[\&\>\*\]\:tw-font-semibold>* {
