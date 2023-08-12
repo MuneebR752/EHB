@@ -96,6 +96,42 @@
         <section class="section hero" id="home" aria-label="hero">
           <div class="container">
             <div class="hero-content">
+              <p class="tw-font-semibold tw-my-8">
+                Time to Launch: <span class="tw-inline" id="timeLeft"></span>
+              </p>
+              <script>
+                var countDownDate = new Date("Aug 14, 2023 11:00:00").getTime();
+
+                var x = setInterval(function () {
+                  var now = new Date().getTime();
+
+                  var distance = countDownDate - now;
+
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor(
+                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+                  );
+                  var minutes = Math.floor(
+                    (distance % (1000 * 60 * 60)) / (1000 * 60)
+                  );
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                  document.getElementById("timeLeft").innerHTML =
+                    days +
+                    "d " +
+                    hours +
+                    "h " +
+                    minutes +
+                    "m " +
+                    seconds +
+                    "s ";
+
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("timeLeft").innerHTML = "Lauched";
+                  }
+                }, 1000);
+              </script>
               <p class="hero-subtitle">
                 Service provider | eCommerce | Information Technology
               </p>
@@ -273,9 +309,6 @@
               <div
                 class="tw-flex tw-items-center tw-justify-center tw-flex-col"
               >
-                <p class="tw-font-semibold">
-                  Time to Launch: <span class="tw-inline" id="timeLeft"></span>
-                </p>
                 <h1 class="tw-text-center tw-my-12">
                   Go Seller - eCommerce <br />
                   Online Buy and Sell
@@ -285,41 +318,6 @@
                   src="./assets/images/Service Icons/go_seller-removebg-preview.png"
                   alt="Go Seller Ecommerce"
                 />
-                <script>
-                  var countDownDate = new Date(
-                    "Aug 30, 2023 00:00:00"
-                  ).getTime();
-
-                  var x = setInterval(function () {
-                    var now = new Date().getTime();
-
-                    var distance = countDownDate - now;
-
-                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    var hours = Math.floor(
-                      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-                    );
-                    var minutes = Math.floor(
-                      (distance % (1000 * 60 * 60)) / (1000 * 60)
-                    );
-                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                    document.getElementById("timeLeft").innerHTML =
-                      days +
-                      "d " +
-                      hours +
-                      "h " +
-                      minutes +
-                      "m " +
-                      seconds +
-                      "s ";
-
-                    if (distance < 0) {
-                      clearInterval(x);
-                      document.getElementById("timeLeft").innerHTML = "Lauched";
-                    }
-                  }, 1000);
-                </script>
               </div>
               <div
                 class="tw-flex tw-items-center tw-justify-center tw-flex-col"

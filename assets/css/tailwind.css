@@ -157,6 +157,11 @@
   margin-bottom: 2rem
 }
 
+.tw-my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem
+}
+
 .tw-mt-8 {
   margin-top: 2rem
 }
@@ -203,10 +208,6 @@
 
 .tw-items-center {
   align-items: center
-}
-
-.tw-justify-start {
-  justify-content: flex-start
 }
 
 .tw-justify-center {
