@@ -161,6 +161,10 @@
   margin-top: 2rem
 }
 
+.tw-inline {
+  display: inline
+}
+
 .tw-flex {
   display: flex
 }
@@ -199,6 +203,10 @@
 
 .tw-items-center {
   align-items: center
+}
+
+.tw-justify-start {
+  justify-content: flex-start
 }
 
 .tw-justify-center {
@@ -240,6 +248,10 @@
 
 .tw-font-bold {
   font-weight: 700
+}
+
+.tw-font-semibold {
+  font-weight: 600
 }
 
 .tw-text-orange-500 {
